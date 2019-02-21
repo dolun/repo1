@@ -1,8 +1,5 @@
 
-
-# !/usr/bin/env python
-## COMMENTAIRE
-from pylab import *
+from pylab import poisson, arange, meshgrid, exp, subplot, semilogy, c_, show, sin
 import pylab as pl
 #from numarray.random_array import poisson,gamma
 #from Numeric import *
@@ -37,7 +34,7 @@ te = arange(lge)*.1
 e, t = meshgrid(te, tt)
 print(t)
 
-spectre = exp(-(e/200)**2-(t/lgt/.6)**2)*30
+spectre = exp(-(e/200) ** 2-(t/lgt/.6)**2) * 30
 pics = [(52., 60., 2.5, 10000.),
         (52., 140., 1., 10000.), (52., 150., 1., .5), (125., 160., 1., .3), (125., 170.,
                                                                              1., .2), (125., 180., 1., .1), (222., 190., 1., .07), (422., 200., 1., .05),
