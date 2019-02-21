@@ -1,7 +1,7 @@
 
 
 # !/usr/bin/env python
-
+## COMMENTAIRE
 from pylab import *
 import pylab as pl
 #from numarray.random_array import poisson,gamma
